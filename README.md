@@ -37,7 +37,7 @@ Run compareVersion.py under the Q_B folder and enter the input by following the 
 
 
 
-## Authors
+## Author
 
 * **Yimeng Wu** - *Electrical and Computer Engineering, McGill University* - [Yimeng Wu](https://github.com/yimeng0701/)
 
