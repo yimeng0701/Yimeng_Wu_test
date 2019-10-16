@@ -9,6 +9,7 @@ The regular Expression is used to check version validity. I define the valid ver
 * Pre-released version (optional): Some versions may have a pre-released version like"1.2.3a". Here, the pre-released one is defined as numbers followed by **one** **lower-case** letter (without ".").
 
 All other types of versions are considered as **Invalid** versions and will not be accepted by the compare function. 
+
 *: Versions with a prefix "v" are also accepted and are ignored during comparison. For example, "v1.2.3" are seen as "1.2.3".
 
 ### Comparison Rules
