@@ -1,4 +1,32 @@
 # PYTHON TECHNICAL TEST 
+
+## Question A
+### Description
+Your goal for this question is to write a program that accepts two lines (x1,x2) and (x3,x4) on the x-axis and returns whether they overlap. As an example, (1,5) and (2,6) overlaps but not (1,5) and (6,8).
+### Idea
+Given two lines l1: (x1,x2) and l2: (x3,x4) on the x-axis (x1,x2,x3,x4 could be any rantional numbers)：
+1. sort the lines first to make x1<x2 and x3<x4
+2. If x3>x2 or x4<x1, the two lines don't overlap, otherwise they overlap.
+
+### Test
+#### Test on pre-defined test cases
+Run test.py under the Q_A folder. I provide 10 test cases:
+1. (1,5) and (6,8)
+2. (1,5) and (2,6)
+3. (-5.634563464,4.3123424) and (-10.61324,-2.123131)
+4. (-10.61324,-2.123131) and (-5.634563464,4.3123424)
+5. (10,7) and (20,3)
+6. (-9.01,-3.228) and (-2.18,5)
+7. (-2.18,5) and (-9.01,-3.228)
+8. (0,-1.76) and (-1.0004,9)
+9. (2,100) and (3,6)
+10. (-2,9) and (-3.7,-2.01)
+
+Run in command-Line: python -m unittest -v  test.TestSolution
+#### Test on your own test cases
+Run overlap.py under the Q_A folder and enter the input by following the instruction. 
+
+
 ## Question B
 ### Description
 The goal of this question is to write a software library that accepts 2 version string as input and returns whether one is greater than, equal, or less than the other. As an example: “1.2” is greater than “1.1”. Please provide all test cases you could think of.
